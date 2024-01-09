@@ -1,5 +1,9 @@
-@import './base.css';
-
+body{
+  background-color: #181818;
+  transition:
+  color 0.5s,
+  background-color 0.5s;
+}
 
 /* @media (min-width: 1024px) { */
   .mainMenu{
@@ -66,6 +70,7 @@
     width: 35%;
     margin-left: 11rem;
   }
+
 
 
 
