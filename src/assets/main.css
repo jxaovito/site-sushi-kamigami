@@ -1,11 +1,81 @@
 @import './base.css';
 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  font-weight: normal;
-}
+
+/* @media (min-width: 1024px) { */
+  .mainMenu{
+    
+  }
+
+  .mainTitle{
+    font-size: 4.2rem;
+    background: -webkit-linear-gradient(#f77373, #ff0000);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    letter-spacing: 7px;
+  }
+
+  .subtitle{
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: -1rem;
+    color: #ffffff;
+  }
+
+  .presentationSubtitle{
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    margin-top: 8rem;
+    margin-bottom: -1rem;
+    color: #ffffff;
+  }
+
+  .presentationTitle{
+    font-size: 3.6rem;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    letter-spacing: 7px;
+  }
+
+  .sushi{
+    margin-left: 20rem;
+    margin-top: 1.5rem;
+    width: 30%;
+  }
+
+  .sushi1{
+    margin-top: -10rem;
+    width: 40%;
+  }
+
+  .sushi2{
+    margin-top: -5rem;
+    width: 35%;
+    margin-left: 11rem;
+  }
+
+
+
+  .logo {
+    margin: 0 auto;
+  }
+ 
+/* } */
+
+
 
 a,
 .green {
@@ -18,18 +88,5 @@ a,
 @media (hover: hover) {
   a:hover {
     background-color: hsla(160, 100%, 37%, 0.2);
-  }
-}
-
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
-
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
   }
 }
