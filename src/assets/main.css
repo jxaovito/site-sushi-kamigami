@@ -52,23 +52,25 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     letter-spacing: 7px;
+    margin-bottom: 6rem;
   }
 
   .sushi{
-    margin-left: 20rem;
-    margin-top: 1.5rem;
-    width: 30%;
+    margin-left: 25rem;
+    margin-top: -3rem;
+    width: 50%;
   }
 
   .sushi1{
-    margin-top: -10rem;
-    width: 40%;
+    margin-top: -12rem;
+    width: 100%;
+    margin-left: -10rem;
   }
 
   .sushi2{
-    margin-top: -5rem;
-    width: 35%;
-    margin-left: 11rem;
+    margin-top: -13rem;
+    width: 80%;
+    margin-left: 13rem;
   }
 
   .navbar.show{
@@ -77,8 +79,79 @@ body{
     box-shadow: 5px 1px 8px rgb(13, 13, 13);
   }
   
+  .products{
+    margin-bottom: 28rem;
+  }
 
+  .products > div::before{
+    content: '';
+    background-color: rgb(255, 255, 255);
+  width: 3.3rem;
+  height: 0.2rem;
+  display: flex;
+  margin-top: 2rem;
+  position: relative;
+  margin-left: 7rem;
+  }
 
+  li{
+    display: flex;
+    
+  }
+
+  .btn-primary {
+    color: #ea440c;
+    background-color: #fff;
+    border-color: #ea440c;
+}
+
+  .btn {
+    display: inline-block;
+    font-family: 'Montserrat', serif;
+    font-weight: 400;
+    cursor: pointer;
+    border: 0.16666667rem solid transparent;
+    border-color: #ea440c;
+    background: transparent;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    outline: none;
+    margin-left: 13rem;
+    margin-right: 27rem;
+    padding: 0.83333333rem 1.94444444rem;
+    font-size: 0.88888889rem;
+    line-height: 1.11111111rem;
+    border-radius: 0;
+    -moz-transition: 0.2s all ease;
+    -webkit-transition: 0.2s all ease;
+    -o-transition: 0.2s all ease;
+    transition: 0.2s all ease;
+  }
+  .btn:hover {
+    color: #ffffff;
+    background-color: #ea440c;
+    border-color: #ea440c;
+  }
+
+  .products > div > h3{
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-size: 1.6rem;
+    padding-left: 1rem;
+    margin-top:0.8rem;
+    margin-left:-16rem;
+  }
+
+  .products > div > p{
+    color: #d1d1d182;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    padding-left: 13rem;
+    margin-right: -15rem;
+    margin-top: -2rem;
+  }
+
+  
 
 
   .logo {
