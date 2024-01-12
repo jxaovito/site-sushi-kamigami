@@ -7,6 +7,7 @@ window.addEventListener("scroll", function(){
 </script>
 
 <template>
+  <div class="bg-head relative">
   <header class="top-0 z-50 w-full">
     <nav class="relative navbar">
       <div class="flex justify-between items-center p-3">
@@ -45,7 +46,7 @@ window.addEventListener("scroll", function(){
     <h1 class="mainTitle xl:mb-[-10rem]">ESPECIALIDADE DA CASA</h1>
     <img
       alt="Vue logo"
-      class="logo xl:w-[35rem] xl:pt-[-20rem]"
+      class="logo xl:w-[35.5rem]"
       src="../img/fotoprincipalsemciruclo.png"
     />
   </div>
@@ -207,4 +208,5 @@ window.addEventListener("scroll", function(){
       </span>
     </div>
   </div>
+</div>
 </template>

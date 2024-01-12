@@ -306,19 +306,17 @@ body{
       height: 150px;
       padding-top: 2rem;
     }
-      /* header::before {
-        content: '';
+
+      .bg-head{
         position: absolute;
         top: 0;
         bottom: 0;
-        left: 3.33333333rem;
-        right: 3.33333333rem;
         background-image: url(../img/bg-head.png);
         -webkit-background-size: cover;
         background-size: contain;
         background-repeat: no-repeat;
       }
-     */
+    
 
      .footer{
       background-color: #262626;
