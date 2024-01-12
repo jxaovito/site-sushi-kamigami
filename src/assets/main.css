@@ -237,7 +237,7 @@ body{
     .products > div > p{
       color: #f0f0f082;
       font-family: 'Lato', sans-serif;
-      font-size: 13px;
+      font-size: 15px;
       padding-left: 12.5rem;
       margin-right: -13rem;
       margin-top: 0.5rem;
@@ -267,7 +267,7 @@ body{
       .infos > div > p{
         color: #f0f0f082;
         font-family: 'Lato', sans-serif;
-        font-size: 13px;
+        font-size: 15px;
         padding-left: 16.5rem;
         margin-right: 1rem;
         margin-top: 0.5rem;
@@ -393,9 +393,9 @@ body{
     .products > div > p{
       color: #f0f0f082;
       font-family: 'Lato', sans-serif;
-      font-size: 13px;
+      font-size: 18px;
       padding-left: 14rem;
-      margin-right: -12rem;
+      margin-right: -17rem;
       margin-top: 0.5rem;
       margin-bottom: -2rem;
     }
@@ -437,7 +437,7 @@ body{
       .infos > div > h3{
         color: #ffffff;
         letter-spacing: 2px;
-        font-size: 1.35rem;
+        font-size: 25px;
         padding-left: 1rem;
         margin-top:6.1rem;
         margin-left:-34rem;
@@ -446,7 +446,7 @@ body{
       .infos > div > p{
         color: #f0f0f082;
         font-family: 'Lato', sans-serif;
-        font-size: 13px;
+        font-size: 18px;
         padding-left: 27rem;
         margin-right: 12rem;
         margin-top: 0.5rem;
@@ -457,14 +457,34 @@ body{
       .orderContainer{
         background-image: url(../img/redcircle.png);
         background-repeat: no-repeat;
-        background-size: 8%;
-        background-position-x: 17rem;
+        background-size: 10%;
+        background-position-x: 18rem;
         background-position-y: 0rem;
-        height: 150px;
-        padding-top: 2rem;
+        height: 190px;
+        padding-top: 3rem;
       }
+
       nav a {
         font-size: 16px;
+        letter-spacing: 1px;
+      }
+
+      .orderTitle{
+        font-size: 3rem;
+        color: #ffffff;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        letter-spacing: 7px;
+        margin-left: 10rem;
+      }
+  
+      .orderSubtitle{
+        font-size: 1.3rem;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: light;
+        letter-spacing: 2px;
+        color: #ffffff94;
+        
       }
 }
 

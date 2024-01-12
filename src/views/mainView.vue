@@ -56,7 +56,7 @@ window.addEventListener("scroll", function(){
     <h1 class="presentationTitle">PRINCIPAIS PRODUTOS</h1>
   </div>
 
-  <div class="grid grid-cols-2">
+  <div class="grid grid-cols-2 2xl:mb-[-10rem]">
     <div class="mt-20">
       <img class="sushi" src="../img/sushipresentation1.jpg" alt="" />
       <img class="sushi1" src="../img/salmao.jpg" alt="" />
@@ -94,7 +94,7 @@ window.addEventListener("scroll", function(){
           coberto com peixe cru ou outros frutos do mar.
         </p>
       </div>
-      <a href="#" class="btn btn-primary">Cardápio</a>
+      <a href="https://www.instagram.com/sushikamigami/" class="btn btn-primary">Cardápio</a>
     </div>
   </div>
 
@@ -158,21 +158,21 @@ window.addEventListener("scroll", function(){
     </div>
     <div>
       <h3
-        class="font-montserrat xl:pl-12 xl:pt-[4.5rem] xl:mb-5 text-gray-200 font-extralight"
+        class="font-montserrat xl:pl-12 xl:pt-[4.5rem] xl:mb-5 text-gray-200 font-light 2xl:text-xl"
       >
       <a href="#">
         HOME
  
       </a>     </h3>
       <h3
-        class="font-montserrat xl:pl-12 xl:mb-5 text-gray-200 font-extralight"
+        class="font-montserrat xl:pl-12 xl:mb-5 text-gray-200 font-light 2xl:text-xl"
       >
       <a href="#">
         CARDÁPIO
       </a>
       </h3>
       <h3
-        class="font-montserrat xl:pl-12 xl:mb-5 text-gray-200 font-extralight"
+        class="font-montserrat xl:pl-12 xl:mb-5 text-gray-200 font-light 2xl:text-xl"
       >
       <a href="https://pedir.delivery/kamigami">
         FAÇA SEU PEDIDO
@@ -180,7 +180,7 @@ window.addEventListener("scroll", function(){
       </h3>
   
       <h3
-        class="font-montserrat xl:pl-12 xl:mb-5 text-gray-200 font-extralight"
+        class="font-montserrat xl:pl-12 xl:mb-5 text-gray-200 font-light 2xl:text-xl"
       >
       <a href="https://www.instagram.com/sushikamigami/">
         CONTATO
@@ -189,21 +189,21 @@ window.addEventListener("scroll", function(){
     </div>
     <div class="xl:mt-[4rem] xl:mr-10 2xl:mr-[7rem]">
       <v-icon name="fa-map-marker-alt" scale="1.2" fill="red" />
-      <span class="font-lato text-gray-400 xl:pl-2"
+      <span class="font-lato text-gray-400 xl:pl-2 2xl:text-lg"
         >Kamigami Sushi Bar, Av. Cel. Procópio Gomes, 918 - Bucarein, Joinville
         - SC, 89202-422</span
       ><br />
       <v-icon name="fa-regular-clock" scale="1.2" fill="red" /><span
-        class="font-lato text-gray-400 xl:pl-2"
+        class="font-lato text-gray-400 xl:pl-2 2xl:text-lg"
         >Terça a domingo: das 18h às 23h30 </span
       ><br />
       <v-icon name="bi-telephone" scale="1.2" fill="red" /><span
-        class="font-lato text-gray-400 xl:pl-2"
+        class="font-lato text-gray-400 xl:pl-2 2xl:text-lg"
       >
         (47) 98814-0193 </span
       ><br />
       <v-icon name="md-deliverydining-outlined" scale="1.2" fill="red" /><span
-        class="font-lato text-gray-400 xl:pl-2"
+        class="font-lato text-gray-400 xl:pl-2 2xl:text-lg"
         > (47) 3034-0983
       </span>
     </div>
