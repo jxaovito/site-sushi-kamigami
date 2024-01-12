@@ -5,10 +5,6 @@ body{
   background-color 0.5s;
 }
 
-/* @media (min-width: 1024px) { */
-  .mainMenu{
-    
-  }
 
   .mainTitle{
     font-size: 4.2rem;
@@ -30,7 +26,7 @@ body{
     justify-content: center;
     margin-top: 5rem;
     margin-bottom: -1rem;
-    color: #ffffff;
+    color: #ffffff94;
   }
 
   .presentationSubtitle{
@@ -54,6 +50,8 @@ body{
     letter-spacing: 7px;
     margin-bottom: 6rem;
   }
+
+
 
   .sushi{
     margin-left: 25rem;
@@ -83,16 +81,7 @@ body{
     margin-bottom: 28rem;
   }
 
-  .products > div::before{
-    content: '';
-    background-color: rgb(255, 255, 255);
-  width: 3.3rem;
-  height: 0.2rem;
-  display: flex;
-  margin-top: 2rem;
-  position: relative;
-  margin-left: 7rem;
-  }
+ 
 
   li{
     display: flex;
@@ -117,7 +106,7 @@ body{
     letter-spacing: 0.08em;
     outline: none;
     margin-left: 13rem;
-    margin-right: 27rem;
+    margin-right: 34rem;
     padding: 0.83333333rem 1.94444444rem;
     font-size: 0.88888889rem;
     line-height: 1.11111111rem;
@@ -127,32 +116,312 @@ body{
     -o-transition: 0.2s all ease;
     transition: 0.2s all ease;
   }
+
   .btn:hover {
     color: #ffffff;
     background-color: #ea440c;
     border-color: #ea440c;
   }
 
-  .products > div > h3{
-    color: #ffffff;
-    letter-spacing: 2px;
-    font-size: 1.6rem;
-    padding-left: 1rem;
-    margin-top:0.8rem;
-    margin-left:-16rem;
+  @media (min-width: 1280px){
+
+    .orderTitle{
+      font-size: 2.7rem;
+      color: #ffffff;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      letter-spacing: 7px;
+    }
+
+    .orderSubtitle{
+      font-size: 1rem;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: light;
+      letter-spacing: 2px;
+      color: #ffffff94;
+    }
+
+
+    .presentationSubtitle{
+      font-size: 0.9rem;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: light;
+      letter-spacing: 2px;
+      display: flex;
+      justify-content: center;
+      margin-top: 8rem;
+      margin-bottom: -0.5rem;
+      color: #ffffff84;
+    }
+
+    .presentationTitle{
+      font-size: 3.3rem;
+      color: #ffffff;
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      letter-spacing: 7px;
+      margin-bottom: 1rem;
+    }
+
+
+    .sushi{
+      margin-left: 18rem;
+      margin-top: 2rem;
+      width: 50%;
+    }
+  
+    .sushi1{
+      margin-top: -12rem;
+      width: 100%;
+      margin-left: -12rem;
+    }
+  
+    .sushi2{
+      margin-top: -13rem;
+      width: 75%;
+      margin-left: 9rem;
+    }
+
+  .products > div::before{
+    content: '';
+    background-color: rgb(255, 255, 255);
+  width: 2.7rem;
+  height: 0.2rem;
+  display: flex;
+  margin-top: 7rem;
+  position: relative;
+  margin-left: 7rem;
   }
 
-  .products > div > p{
-    color: #d1d1d182;
-    font-family: 'Lato', sans-serif;
-    font-size: 18px;
-    padding-left: 13rem;
-    margin-right: -15rem;
-    margin-top: -2rem;
+    .products > div > h3{
+      color: #ffffff;
+      letter-spacing: 2px;
+      font-size: 1.35rem;
+      padding-left: 1rem;
+      margin-top:6.1rem;
+      margin-left:-17rem;
+    }
+  
+    .products > div > p{
+      color: #f0f0f082;
+      font-family: 'Lato', sans-serif;
+      font-size: 13px;
+      padding-left: 12.5rem;
+      margin-right: -4rem;
+      margin-top: 0.5rem;
+      margin-bottom: -2rem;
+    }
+
+    .infos > div::before{
+      content: '';
+      background-color: rgb(255, 255, 255);
+    width: 2.7rem;
+    height: 0.2rem;
+    display: flex;
+    margin-top: 7rem;
+    position: relative;
+    margin-left: 11rem;
+    }
+  
+      .infos > div > h3{
+        color: #ffffff;
+        letter-spacing: 2px;
+        font-size: 1.35rem;
+        padding-left: 1rem;
+        margin-top:6.1rem;
+        margin-left:-26.5rem;
+      }
+    
+      .infos > div > p{
+        color: #f0f0f082;
+        font-family: 'Lato', sans-serif;
+        font-size: 13px;
+        padding-left: 16.5rem;
+        margin-right: 1rem;
+        margin-top: 0.5rem;
+        margin-bottom: -2rem;
+      }
+
+    .btn {
+      display: inline-block;
+      font-family: 'Montserrat', serif;
+      font-weight: 400;
+      cursor: pointer;
+      border: 0.16666667rem solid transparent;
+      border-color: #ea440c;
+      background: transparent;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      outline: none;
+      margin-left: 12.6rem;
+      margin-right: 34.7rem;
+      padding: 0.6rem 1.94444444rem;
+      font-size: 0.88888889rem;
+      line-height: 1.11111111rem;
+      border-radius: 0;
+      -moz-transition: 0.2s all ease;
+      -webkit-transition: 0.2s all ease;
+      -o-transition: 0.2s all ease;
+      transition: 0.2s all ease;
+      margin-top: 4rem;
+    }
+    .orderContainer{
+      background-image: url(../img/redcircle.png);
+      background-repeat: no-repeat;
+      background-size: 11%;
+      background-position-x: 17rem;
+      background-position-y: 0rem;
+      height: 150px;
+      padding-top: 2rem;
+    }
+      /* header::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 3.33333333rem;
+        right: 3.33333333rem;
+        background-image: url(../img/bg-head.png);
+        -webkit-background-size: cover;
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+     */
+  
   }
 
   
+  @media (min-width: 1536px){
+   
+    .presentationTitle{
+      font-size: 3.6rem;
+      color: #ffffff;
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      letter-spacing: 7px;
+      margin-bottom: -2rem;
+    }
 
+    .presentationSubtitle{
+      margin-bottom: -0.5rem;
+      color: #ffffff84;
+    }
+
+    .sushi{
+      margin-left: 36rem;
+      margin-top: 2rem;
+      width: 40%;
+    }
+  
+    .sushi1{
+      margin-top: -12rem;
+      width: 80%;
+      margin-left: 5rem;
+    }
+  
+    .sushi2{
+      margin-top: -13rem;
+      width: 70%;
+      margin-left: 20rem;
+    }
+
+  .products > div::before{
+    content: '';
+    background-color: rgb(255, 255, 255);
+  width: 3.2rem;
+  height: 0.2rem;
+  display: flex;
+  margin-top: 7rem;
+  position: relative;
+  margin-left: 7rem;
+  }
+
+    .products > div > h3{
+      color: #ffffff;
+      letter-spacing: 2px;
+      font-size: 1.8rem;
+      padding-left: 1rem;
+      margin-top:5.6rem;
+      margin-left:-18.5rem;
+    }
+  
+    .products > div > p{
+      color: #f0f0f082;
+      font-family: 'Lato', sans-serif;
+      font-size: 13px;
+      padding-left: 12.5rem;
+      margin-right: -4rem;
+      margin-top: 0.5rem;
+      margin-bottom: -2rem;
+    }
+
+    .btn {
+      display: inline-block;
+      font-family: 'Montserrat', serif;
+      font-weight: 400;
+      cursor: pointer;
+      border: 0.16666667rem solid transparent;
+      border-color: #ea440c;
+      background: transparent;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      outline: none;
+      margin-left: 12.6rem;
+      margin-right: 38rem;
+      padding: 0.6rem 1.94444444rem;
+      font-size: 0.88888889rem;
+      line-height: 1.11111111rem;
+      border-radius: 0;
+      -moz-transition: 0.2s all ease;
+      -webkit-transition: 0.2s all ease;
+      -o-transition: 0.2s all ease;
+      transition: 0.2s all ease;
+      margin-top: 4rem;
+    }
+    .infos > div::before{
+      content: '';
+      background-color: rgb(255, 255, 255);
+    width: 2.7rem;
+    height: 0.2rem;
+    display: flex;
+    margin-top: 7rem;
+    position: relative;
+    margin-left: 21rem;
+    }
+  
+      .infos > div > h3{
+        color: #ffffff;
+        letter-spacing: 2px;
+        font-size: 1.35rem;
+        padding-left: 1rem;
+        margin-top:6.1rem;
+        margin-left:-34rem;
+      }
+    
+      .infos > div > p{
+        color: #f0f0f082;
+        font-family: 'Lato', sans-serif;
+        font-size: 13px;
+        padding-left: 27rem;
+        margin-right: 12rem;
+        margin-top: 0.5rem;
+        margin-bottom: -2rem;
+      }
+
+
+      .orderContainer{
+        background-image: url(../img/redcircle.png);
+        background-repeat: no-repeat;
+        background-size: 8%;
+        background-position-x: 17rem;
+        background-position-y: 0rem;
+        height: 150px;
+        padding-top: 2rem;
+      }
+
+}
 
   .logo {
     margin: 0 auto;
