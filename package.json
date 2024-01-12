@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@vitejs/plugin-vue": "^5.0.2",
+    "oh-vue-icons": "^1.0.0-rc3",
     "vue-router": "^4.0.15"
   }
 }

@@ -1,8 +1,5 @@
 body{
   background-color: #181818;
-  transition:
-  color 0.5s,
-  background-color 0.5s;
 }
 
 
@@ -15,6 +12,28 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     letter-spacing: 7px;
+  }
+
+  header{
+    position: fixed;
+  }
+
+  .navbar{
+    transition: 0.6s;
+    z-index: 100000;
+    
+  }
+
+ 
+
+  nav.sticky {
+    padding: 15px 30px;
+    background: #181818;
+    box-shadow: 15px 0px 5px black;
+  }
+
+  nav.sticky div a {
+    color: #d7d7d7;
   }
 
   .subtitle{
@@ -76,6 +95,8 @@ body{
     background-color: #181818;
     box-shadow: 5px 1px 8px rgb(13, 13, 13);
   }
+
+  
   
   .products{
     margin-bottom: 28rem;
@@ -124,6 +145,16 @@ body{
   }
 
   @media (min-width: 1280px){
+
+    .bigsashimidiv{
+      background-image: url(../img/bigsashimi768.png);
+      background-repeat: no-repeat;
+      background-size: 40%;
+      background-position-x: 810px;
+      background-position-y: -105px;
+
+    }
+
 
     .orderTitle{
       font-size: 2.7rem;
@@ -200,7 +231,7 @@ body{
       font-size: 1.35rem;
       padding-left: 1rem;
       margin-top:6.1rem;
-      margin-left:-17rem;
+      margin-left:-7.6rem;
     }
   
     .products > div > p{
@@ -208,7 +239,7 @@ body{
       font-family: 'Lato', sans-serif;
       font-size: 13px;
       padding-left: 12.5rem;
-      margin-right: -4rem;
+      margin-right: -13rem;
       margin-top: 0.5rem;
       margin-bottom: -2rem;
     }
@@ -288,12 +319,26 @@ body{
         background-repeat: no-repeat;
       }
      */
+
+     .footer{
+      background-color: #262626;
+      height: 350px;
+     }
   
   }
 
   
   @media (min-width: 1536px){
    
+    .bigsashimidiv{
+      background-image: url(../img/bigsashimi.png);
+      background-repeat: no-repeat;
+      background-size: 50%;
+      background-position-x: 960px;
+      background-position-y: -105px;
+
+    }
+
     .presentationTitle{
       font-size: 3.6rem;
       color: #ffffff;
@@ -335,7 +380,7 @@ body{
   display: flex;
   margin-top: 7rem;
   position: relative;
-  margin-left: 7rem;
+  margin-left: 8rem;
   }
 
     .products > div > h3{
@@ -344,15 +389,15 @@ body{
       font-size: 1.8rem;
       padding-left: 1rem;
       margin-top:5.6rem;
-      margin-left:-18.5rem;
+      margin-left: -7.5rem;
     }
   
     .products > div > p{
       color: #f0f0f082;
       font-family: 'Lato', sans-serif;
       font-size: 13px;
-      padding-left: 12.5rem;
-      margin-right: -4rem;
+      padding-left: 14rem;
+      margin-right: -12rem;
       margin-top: 0.5rem;
       margin-bottom: -2rem;
     }
@@ -368,7 +413,7 @@ body{
       text-transform: uppercase;
       letter-spacing: 0.08em;
       outline: none;
-      margin-left: 12.6rem;
+      margin-left: 14rem;
       margin-right: 38rem;
       padding: 0.6rem 1.94444444rem;
       font-size: 0.88888889rem;
@@ -420,7 +465,9 @@ body{
         height: 150px;
         padding-top: 2rem;
       }
-
+      nav a {
+        font-size: 16px;
+      }
 }
 
   .logo {
