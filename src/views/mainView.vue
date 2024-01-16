@@ -8,49 +8,7 @@ window.addEventListener("scroll", function(){
 
 <template>
   <div class="bg-head relative">
-  <header class="top-0 z-50 w-full">
-    <nav class="relative navbar">
-      <div class="flex justify-between items-center p-3">
-        <img
-          src="../img/kamigami.png"
-          class="xl:h-8 xl:pl-12 xl:mt-3"
-          alt="KamiGami Logo"
-        />
-        <div class="flex items-center space-x-6 xl:mr-12 xl:mt-5 2xl:mt-7 xl:to-white">
-          <a
-            href="https://www.instagram.com/sushikamigami/"
-            class="font-montserrat font-light text-gray-500 dark:text-white hover:text-red-400"
-            >Nosso Cardápio</a
-          >
-          <a
-            href="https://pedir.delivery/kamigami"
-            class="font-montserrat font-light text-gray-500 dark:text-white hover:text-red-400"
-            >Faça seu pedido</a
-          >
-          <a
-            href="https://www.instagram.com/sushikamigami/"
-            class="font-montserrat font-light text-gray-500 dark:text-white hover:text-red-400"
-            >Sobre nós</a
-          >
-          <a
-            href="https://www.instagram.com/sushikamigami/"
-            class="font-montserrat font-light text-gray-500 dark:text-white hover:text-red-400"
-            >Contato</a
-          >
-        </div>
-      </div>
-    </nav>
-  </header>
-  <div class="xl:pt-[6rem]">
-    <span class="subtitle">VENHA EXPERIMENTAR A</span>
-    <h1 class="mainTitle xl:mb-[-10rem]">ESPECIALIDADE DA CASA</h1>
-    <img
-      alt="Vue logo"
-      class="logo xl:w-[35.5rem]"
-      src="../img/fotoprincipalsemciruclo.png"
-    />
-  </div>
-
+    <Header/>
   <div class="">
     <span class="presentationSubtitle">DÊ UMA OLHADA NOS NOSSOS</span>
     <h1 class="presentationTitle">PRINCIPAIS PRODUTOS</h1>
@@ -135,78 +93,15 @@ window.addEventListener("scroll", function(){
     </div>
   </div>
   <div class="2xl:w-full xl:w-full">
-    <!-- <img
-      class="xl:mt-[-43rem] xl:ml-[50rem] 2xl:ml-[60.7rem] 2xl:mt-[-45rem]"
-      src="../img/bigsashimi.png"
-      srcset="../img/bigsashimi.png 100w, ../img/bigsashimi768.png  100w"
-      sizes="(min-width: 1532px) 1532px, (min-width: 1280px) 1280px"
-              
-    /> -->
   </div>
 
-  <div class="footer grid grid-cols-3 xl:mt-[13.5rem]">
-    <div class="xl:ml-[5rem]">
-      <img
-        class="xl:w-[200px] xl:pt-[4rem] xl:pb-7"
-        src="../img/kamigami.png"
-        alt=""
-      />
-      <span class="font-lato text-gray-300"
-        >Sushi Kami Gami © 2024 <br/>
-        Todos os direitos reservados.
-      </span>
-    </div>
-    <div>
-      <h3
-        class="font-montserrat xl:pl-12 xl:pt-[4.5rem] xl:mb-5 text-gray-200 font-light 2xl:text-xl"
-      >
-      <a href="#">
-        HOME
- 
-      </a>     </h3>
-      <h3
-        class="font-montserrat xl:pl-12 xl:mb-5 text-gray-200 font-light 2xl:text-xl"
-      >
-      <a href="#">
-        CARDÁPIO
-      </a>
-      </h3>
-      <h3
-        class="font-montserrat xl:pl-12 xl:mb-5 text-gray-200 font-light 2xl:text-xl"
-      >
-      <a href="https://pedir.delivery/kamigami">
-        FAÇA SEU PEDIDO
-      </a>
-      </h3>
-  
-      <h3
-        class="font-montserrat xl:pl-12 xl:mb-5 text-gray-200 font-light 2xl:text-xl"
-      >
-      <a href="https://www.instagram.com/sushikamigami/">
-        CONTATO
-      </a>
-      </h3>
-    </div>
-    <div class="xl:mt-[4rem] xl:mr-10 2xl:mr-[7rem]">
-      <v-icon name="fa-map-marker-alt" scale="1.2" fill="red" />
-      <span class="font-lato text-gray-400 xl:pl-2 2xl:text-lg"
-        >Kamigami Sushi Bar, Av. Cel. Procópio Gomes, 918 - Bucarein, Joinville
-        - SC, 89202-422</span
-      ><br />
-      <v-icon name="fa-regular-clock" scale="1.2" fill="red" /><span
-        class="font-lato text-gray-400 xl:pl-2 2xl:text-lg"
-        >Terça a domingo: das 18h às 23h30 </span
-      ><br />
-      <v-icon name="bi-telephone" scale="1.2" fill="red" /><span
-        class="font-lato text-gray-400 xl:pl-2 2xl:text-lg"
-      >
-        (47) 98814-0193 </span
-      ><br />
-      <v-icon name="md-deliverydining-outlined" scale="1.2" fill="red" /><span
-        class="font-lato text-gray-400 xl:pl-2 2xl:text-lg"
-        > (47) 3034-0983
-      </span>
-    </div>
-  </div>
+ <Footer/>
 </div>
 </template>
+
+
+<script>
+import Header from "../components/headerComponent.vue"
+import Footer from "../components/footerComponent.vue"
+
+</script>
