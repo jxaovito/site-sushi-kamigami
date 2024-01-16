@@ -4,7 +4,7 @@
       <div class="flex justify-between items-center p-3">
         <img
           src="../img/kamigami.png"
-          class="xl:h-8 xl:pl-12 xl:mt-3"
+          class="xl:h-8 xl:pl-12 xl:mt- logo"
           alt="KamiGami Logo"
         />
         <div class="flex items-center space-x-6 xl:mr-12 xl:mt-5 2xl:mt-7 xl:to-white">
@@ -32,12 +32,12 @@
       </div>
     </nav>
   </header>
-  <div class="xl:pt-[6rem]">
+  <div class="xl:pt-[6rem] principal">
     <span class="subtitle">VENHA EXPERIMENTAR A</span>
     <h1 class="mainTitle xl:mb-[-10rem]">ESPECIALIDADE DA CASA</h1>
     <img
       alt="Vue logo"
-      class="logo xl:w-[35.5rem]"
+      class="imgprincipal xl:w-[35.5rem]"
       src="../img/fotoprincipalsemciruclo.png"
     />
   </div>

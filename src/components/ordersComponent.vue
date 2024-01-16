@@ -7,7 +7,7 @@ class="xl:mt-[-13rem] xl:mb-[-1rem] 2xl:mt-[0rem] 2xl:ml-[6rem] orderContainer"
 </div>
 <div class="infos bigsashimidiv">
 <div class="grid grid-cols-2">
-  <h3 class="font-montserrat font-bold text-blue-500 xl:pl-[3rem]">
+  <h3 class="font-montserrat font-bold  xl:pl-[3rem]">
     HORÁRIOS
   </h3>
   <p>s
@@ -16,11 +16,11 @@ class="xl:mt-[-13rem] xl:mb-[-1rem] 2xl:mt-[0rem] 2xl:ml-[6rem] orderContainer"
   </p>
 </div>
 <div class="grid grid-cols-2">
-  <h3 class="font-montserrat font-bold text-blue-500">REDES SOCIAIS</h3>
+  <h3 class="font-montserrat font-bold ">REDES SOCIAIS</h3>
   <p>Instagram: @sushikamigami <br />Twitter: @sushikamigami</p>
 </div>
 <div class="grid grid-cols-2">
-  <h3 class="font-montserrat font-bold text-blue-500">CONTATO</h3>
+  <h3 class="font-montserrat font-bold ">CONTATO</h3>
   <p>
     Whatsapp: (47) 98814-0193
     <br/>

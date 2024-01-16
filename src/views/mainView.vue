@@ -11,7 +11,6 @@ window.addEventListener("scroll", function(){
     <Header/>
     <Products/>
   <Orders/>
-
  <Footer/>
 </div>
 </template>
