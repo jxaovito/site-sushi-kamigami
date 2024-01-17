@@ -459,7 +459,10 @@ body{
         margin-bottom: -2rem;
       }
 
-
+      nav a {
+        font-size: 16px;
+        letter-spacing: 1px;
+      }
       .orderContainer{
         background-image: url(../img/redcircle.png);
         background-repeat: no-repeat;
@@ -470,10 +473,7 @@ body{
         padding-top: 3rem;
       }
 
-      nav a {
-        font-size: 16px;
-        letter-spacing: 1px;
-      }
+     
 
       .orderTitle{
         font-size: 3rem;
@@ -497,6 +497,10 @@ body{
 
   @media (max-width: 500px){
     
+    nav a{
+      display: none;
+    }
+
     .logo{
       width: 130px;
       margin: 15px;
@@ -526,11 +530,7 @@ body{
     }
 
   
-    .productsimages{
-      text-align: center;
-      margin-top: -2rem;
-      width: 50%;
-    }
+ 
 
     .presentationSubtitle{
         justify-content: center;
@@ -546,27 +546,45 @@ body{
       letter-spacing: 3px;
       line-height: normal;
     }
+
+    .productsimages{
+      text-align: center;
+      margin-top: -3rem;
+      width: 30%;
+      margin-left: 3.3em;
+    }
+
     .sushi{
       margin-left: 0rem;
       margin-top: 0rem;
-      width: 30%;
+      max-width: 120%;
+      width: 120%;
+      padding-bottom: 1em;
     }
   
     .sushi1{
       margin-top: 0rem;
-      width: 30%;
+      max-width: 120%;
+      width: 120%;
       margin-left: 0rem;
+      padding-bottom: 1em;
     }
   
     .sushi2{
       margin-top: 0rem;
-      width: 30%;
+      max-width: 120%;
+      width: 120%;
       margin-left: 0rem;
     }
 
     .products{
       margin-left: 1rem;
       margin-top: 3rem;
+      width: 40%;
+    }
+
+    .products > div {
+      width: 40%;
     }
 
     .products > div::before{
@@ -596,11 +614,102 @@ body{
       padding-left: 5rem;
       margin-top: 0.5rem;
       margin-bottom: 4rem;
-      margin-right: 20rem;
+      margin-right: 32rem;
       width: 50%;
     }
+
+    .btn {
+      display: inline-block;
+      font-family: 'Montserrat', serif;
+      font-weight: 400;
+      cursor: pointer;
+      border: 0.16666667rem solid transparent;
+      border-color: #ea440c;
+      background: transparent;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      outline: none;
+      margin-left: 5rem;
+      /* margin-right: 30rem; */
+      padding: 0.6rem 1.94444444rem;
+      font-size: 0.88888889rem;
+      line-height: 1.11111111rem;
+      border-radius: 0;
+      -moz-transition: 0.2s all ease;
+      -webkit-transition: 0.2s all ease;
+      -o-transition: 0.2s all ease;
+      transition: 0.2s all ease;
+      margin-top: -1.5rem;
+    }
+
+    .productsContainer{
+      height: 1350px;
+    }
+   
+
+    .orderContainer{
+      background-image: url(../img/redcircle.png);
+      background-repeat: no-repeat;
+      background-size: 30%;
+      background-position-x: 8.5rem;
+      background-position-y: 2rem;
+      height: 190px;
+      padding-top: 3rem;
+    }
+
+   
+
+    .orderTitle{
+      font-size: 40px;
+      letter-spacing: 2px;
+      line-height: normal;
+      color: #ffffff;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      margin-left: 1.8rem;
+    }
+
+    .orderSubtitle{
+      font-size: 13px;
+      color: #b0b0b0;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: light;
+      letter-spacing: 2px;
+      margin-left: 6.8rem;
+    }
+    
+    .infos > div::before{
+      content: '';
+      background-color: rgb(255, 255, 255);
+    width: 2rem;
+    height: 0.2rem;
+    display: flex;
+    position: relative;
+    margin-left: 2.3rem;
+    }
+  
+      .infos > div > h3{
+        color: #ffffff;
+      letter-spacing: 2px;
+      font-size: 1.20rem;
+      margin-left: -6rem;
+      margin-top:-1rem;
+      width: 100%;
+      }
+    
+      .infos > div > p{
+        color: #f0f0f082;
+        font-family: 'Lato', sans-serif;
+        font-size: 12px;
+        padding-left: 6.3rem;
+        margin-top: 0.5rem;
+        margin-bottom: 4rem;
+        width: 100%;
+        margin-right: -10rem;
+      }
+
+
   }
-/* } */
 
 
 

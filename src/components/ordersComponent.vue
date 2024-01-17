@@ -6,11 +6,11 @@ class="xl:mt-[-13rem] xl:mb-[-1rem] 2xl:mt-[0rem] 2xl:ml-[6rem] orderContainer"
 <h1 class="orderTitle xl:ml-[9rem] xl:mt-[-0.5rem]">O SEU PEDIDO</h1>
 </div>
 <div class="infos bigsashimidiv">
-<div class="grid grid-cols-2">
+<div class="grid xl:grid-cols-2">
   <h3 class="font-montserrat font-bold  xl:pl-[3rem]">
     HORÁRIOS
   </h3>
-  <p>s
+  <p>
     Buffet de sushi, de Terça a Domingo das 18:30hrs às 23:30hrs, 
     Almoço caseiro, de Segunda a Sábado das 11:00hrs às 14:00hrs 
   </p>

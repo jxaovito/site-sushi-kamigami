@@ -4,7 +4,7 @@
     <h1 class="presentationTitle">PRINCIPAIS PRODUTOS</h1>
   </div>
 
-  <div class="grid xl:grid-cols-2 2xl:mb-[-10rem]">
+  <div class="grid xl:grid-cols-2 2xl:mb-[-10rem] productsContainer">
     <div class="mt-20 productsimages">
       <img class="sushi" src="../img/sushipresentation1.jpg" alt="" />
       <img class="sushi1" src="../img/salmao.jpg" alt="" />
