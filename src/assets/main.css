@@ -621,7 +621,7 @@ body{
       padding-left: 5rem;
       margin-top: 0.5rem;
       margin-bottom: 4rem;
-      margin-right: 32rem;
+      margin-right: 35rem;
       width: 50%;
     }
 
@@ -650,7 +650,7 @@ body{
     }
 
     .productsContainer{
-      height: 1350px;
+      height: 1300px;
       width: 95%;
       text-align:left;
     }
