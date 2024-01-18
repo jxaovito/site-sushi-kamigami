@@ -2,7 +2,7 @@
 <div class="footer grid grid-cols-3 xl:mt-[13.5rem]">
     <div class="xl:ml-[5rem]">
       <img
-        class="xl:w-[200px] xl:pt-[4rem] xl:pb-7"
+        class="xl:w-[200px] xl:pt-[4rem] xl:pb-7 logofooter"
         src="../img/kamigami.png"
         alt=""
       />

@@ -15,11 +15,11 @@ class="xl:mt-[-13rem] xl:mb-[-1rem] 2xl:mt-[0rem] 2xl:ml-[6rem] orderContainer"
     Almoço caseiro, de Segunda a Sábado das 11:00hrs às 14:00hrs 
   </p>
 </div>
-<div class="grid grid-cols-2">
+<div class="grid xl:grid-cols-2">
   <h3 class="font-montserrat font-bold ">REDES SOCIAIS</h3>
   <p>Instagram: @sushikamigami <br />Twitter: @sushikamigami</p>
 </div>
-<div class="grid grid-cols-2">
+<div class="grid xl:grid-cols-2">
   <h3 class="font-montserrat font-bold ">CONTATO</h3>
   <p>
     Whatsapp: (47) 98814-0193
@@ -27,7 +27,7 @@ class="xl:mt-[-13rem] xl:mb-[-1rem] 2xl:mt-[0rem] 2xl:ml-[6rem] orderContainer"
     Telefone: (47) 98814-0193
   </p>
 </div>
-<div class="grid grid-cols-2">
+<div class="grid xl:grid-cols-2">
   <h3 class="font-montserrat font-bold text-blue-500">ENDEREÇO</h3>
   <p>
     Kamigami Sushi Bar, Av. Cel. Procópio Gomes, 918 - Bucarein, Joinville -
