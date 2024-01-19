@@ -1,11 +1,11 @@
 <template>
-<div class="">
+<div class="productsTitle">
     <span class="presentationSubtitle">DÊ UMA OLHADA NOS NOSSOS</span>
     <h1 class="presentationTitle">PRINCIPAIS PRODUTOS</h1>
   </div>
 
   <div class="grid xl:grid-cols-2 2xl:mb-[-10rem] productsContainer">
-    <div class="mt-20 productsimages">
+    <div class="mt-20 productsimages max-[500px]:items-center  max-[500px]:justify-center">
       <img class="sushi" src="../img/sushipresentation1.jpg" alt="" />
       <img class="sushi1" src="../img/salmao.jpg" alt="" />
       <img class="sushi2" src="../img/sushipresentation3.jpg" alt="" />
